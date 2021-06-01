@@ -23,7 +23,8 @@ h2 {
 }
 
 .contenedor-flex {
-    
+    display: flex;
+    border: 3px solid black;
 }
 
 .elemento-flex {
