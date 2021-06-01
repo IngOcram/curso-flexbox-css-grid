@@ -26,7 +26,13 @@ h2 {
     display: flex;
     border: 3px solid black;
     /** Direcciones **/
-    flex-direction: column-reverse;
+    flex-direction: row;
+    /** WRAP */
+    flex-wrap: wrap-reverse;
+
+    /** flex flow  -- column  o row y wrap, nowrap o wrap-reverse **/
+
+    flex-flow: row wrap;
 }
 
 .elemento-flex {
